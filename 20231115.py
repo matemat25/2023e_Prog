@@ -19,13 +19,19 @@ if y not in lst:
 else:
     print(y, " benne van a listában!")
 
-for x in range(1,10):
+for x in range(1,r+1):
     db = 0
     for y in lst:
         if x == y:
             db += 1
-            if db > 1:
-                print(x, end = ", ")
-                break
-            
-         
+    if db > 1:
+        print(x)
+lst2 = []
+for x in range(n):
+    db = 0
+    for y in lst:
+        if lst[i] == y:
+            db += 1
+            print(lst2, end = ", ")
+            lst2.append(x)
+            break
