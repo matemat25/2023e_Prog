@@ -24,7 +24,8 @@ for x in range(1,10):
     for y in lst:
         if x == y:
             db += 1
-    if db > 1:
-        print(x)
+            if db > 1:
+                print(x, end = ", ")
+                break
             
          
