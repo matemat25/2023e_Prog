@@ -15,17 +15,16 @@ for i in range(1, n):
     if lst[i] < minn:
         minn = lst[i]
         i_m = i
-       
+
 print("min: ", minn)
 print("i_m: ", i_m)
 
 print("2. megoldás")
 minn = lst[0]
 for x in lst:  
- if x < minn:
-     minn = x
+if x < minn:
+    minn = x
 print("min: ", minn)
-   
 print("3. megoldás")
 minn = lst[0]
 i = 1
