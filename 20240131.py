@@ -73,3 +73,28 @@ for i in range(n):
         print("%4i" %lst3[i][j], end = " ")
     print()
 
+print("--- Összegek oszloponként ---")
+
+
+for i in range(5):
+    s = 0
+    for j in range(5):
+        s += lst3 [j][i]
+    lst3[5][i] = s
+n = 9
+for i in range(n):
+    for j in range(n):
+        print("%4i" %lst3[i][j], end = " ")
+    print()
+print("--- Minimum oszloponként ---")
+for i in range(5):
+    minn = float('inf')
+    for j in range(5):
+        if lst3[j][i] < minn:
+            minn = lst3[j][i]
+    lst3[6][i] = s
+n = 9
+for i in range(n):
+    for j in range(n):
+        print("%4i" %lst3[i][j], end = " ")
+    print()
